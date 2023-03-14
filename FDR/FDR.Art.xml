@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameArtSpecification>
   <id>
-    <name text="FDR"/>
-    <id text="1bb2859e-6b8a-4c36-a6ff-2ffdbb8a0089"/>
+    <name text="UNITEDSTATES_FDR"/>
+    <id text="aca3c429-6cb9-41b5-a3c1-44cdc811b48c"/>
   </id>
   <artConsumers>
     <Element>

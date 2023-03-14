@@ -25,12 +25,12 @@
 							<m_EntryName text="ART_LEADER_LEADER_CUSTOM"/>
 							<m_XLPClass text="UITexture"/>
 							<m_XLPPath text="Leader_LEADER_CUSTOM.xlp"/>
-							<m_BLPPackage text="LEADER_JRA_LEADER_CUSTOM"/>
+							<m_BLPPackage text="LEADER_HOSCH_LEADER_CUSTOM"/>
 							<m_LibraryName text="UITexture"/>
 							<m_ParamName text="Leader_BLP_Entry"/>
 						</Element>
 						<Element class="AssetObjects::BLPEntryValue">
-							<m_EntryName text="LEADER_JRA_LEADER_CUSTOM_ICONS"/>
+							<m_EntryName text="LEADER_HOSCH_LEADER_CUSTOM_ICONS"/>
 							<m_XLPClass text="UITexture"/>
 							<m_XLPPath text="Icons.xlp"/>
 							<m_BLPPackage text="Icons"/>
@@ -64,7 +64,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LEADER_JRA_LEADER_CUSTOM"/>
+				<m_Name text="LEADER_HOSCH_LEADER_CUSTOM"/>
 			</Element>
 		</Element>
 	</m_RootCollections>

@@ -7,7 +7,7 @@
 		<revision>293</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
-	<m_PackageName text="LEADER_JRA_LEADER_CUSTOM"/>
+	<m_PackageName text="LEADER_HOSCH_LEADER_CUSTOM"/>
 	<m_Entries>
 		<Element>
 			<m_EntryID text="ART_LEADER_LEADER_CUSTOM"/>

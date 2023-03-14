@@ -26,14 +26,6 @@
 
 	<IconDefinitions>
 		<!--Leader Icons-->
-		<Row Name="ICON_LEADER_JRA_LEADER_CUSTOM" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>
-
-		<!--Civilization Icons-->
-		<Row Name="ICON_CIVILIZATION_JRA_CIV_CUSTOM" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
-
-
-		<!--Building Icons-->
-		<Row Name="ICON_BUILDING_JRA_CUSTOM" Atlas="ICON_ATLAS_CIVICS" Index="29"/>
-
+		<Row Name="ICON_LEADER_HOSCH_LEADER_CUSTOM" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>
 	</IconDefinitions>
 </GameData>
