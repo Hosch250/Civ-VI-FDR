@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>UNITEDSTATES_FDR</Name>
+    <Guid>1bb2859e-6b8a-4c36-a6ff-2ffdbb8a0089</Guid>
+    <ProjectGuid>25fc5a59-cc24-48ad-afe7-ef7dffa22814</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Franklin Delano Roosevelt (FDR) to the game.</Teaser>
+    <Description>Adds Franklin Delano Roosevelt (FDR) to the game.</Description>
+    <Authors>hosch250</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>FDR</AssemblyName>
+    <RootNamespace>FDR</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="FDR.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
