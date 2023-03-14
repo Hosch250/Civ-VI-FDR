@@ -189,12 +189,11 @@
 			<Text>Commercial Hubs provide [Icon_Production] production equal to their bonus modifier.</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HOSCH_CCC" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_NAME" Language="en_US">
 			<Text>Civilian Conservation Corp.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HOSCH_CCC_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_DESCRIPTION" Language="en_US">
 			<Text>+1 charge and 25% bonus production for builders while at peace.</Text>
 		</Row>
-
 	</LocalizedText>
 </GameData>
