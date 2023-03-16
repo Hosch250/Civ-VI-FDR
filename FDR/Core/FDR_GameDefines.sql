@@ -95,45 +95,46 @@ VALUES	('LEADER_HOSCH_FDR',		'ART_LEADER_FDR.dds');
 --==========================================================================================================================
 -- Types
 --------------------------------------------------------------------------------------------------------------------------	
--- INSERT INTO Types	
--- 		(Type,											Kind)
--- VALUES	('ABILITY_HOSCH_FDR_BUILDERS',					'KIND_ABILITY');
--- --		('TRAIT_AGENDA_LEADER_HOSCH_FDR_NEW_DEAL',		'KIND_TRAIT'),
--- --		('TRAIT_LEADER_HOSCH_FDR_CCC',					'KIND_TRAIT');
+INSERT INTO Types	
+		(Type,											Kind)
+VALUES	('ABILITY_HOSCH_FDR_BUILDERS',					'KIND_ABILITY');
+--		('TRAIT_AGENDA_LEADER_HOSCH_FDR_NEW_DEAL',		'KIND_TRAIT'),
+--		('TRAIT_LEADER_HOSCH_FDR_CCC',					'KIND_TRAIT');
 
--- INSERT INTO Traits				
--- 		(TraitType,							Name,											Description)
--- VALUES	('ABILITY_HOSCH_FDR_BUILDERS',		'LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_NAME',		'LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_DESCRIPTION');
+INSERT INTO Traits				
+		(TraitType,							Name,											Description)
+VALUES	('ABILITY_HOSCH_FDR_BUILDERS',		'LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_NAME',		'LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_DESCRIPTION');
 
--- INSERT INTO LeaderTraits
--- 		(LeaderType,			TraitType)
--- VALUES	('LEADER_HOSCH_FDR',	'ABILITY_HOSCH_FDR_BUILDERS');
+INSERT INTO LeaderTraits
+		(LeaderType,			TraitType)
+VALUES	('LEADER_HOSCH_FDR',	'ABILITY_HOSCH_FDR_BUILDERS');
 
 -- INSERT INTO Requirements
 -- 		(RequirementId,									RequirementType,					Inverse)
 -- VALUES	('HOSCH_FDR_REQUIRES_PLAYER_IS_AT_PEACE',		'REQUIREMENT_PLAYER_IS_AT_PEACE',	0);
 
--- INSERT INTO RequirementSets
--- 		(RequirementSetId,					RequirementSetType)
--- VALUES	('HOSCH_FDR_PLAYER_AT_PEACE',		'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSets
+		(RequirementSetId,					RequirementSetType)
+VALUES	('HOSCH_FDR_PLAYER_AT_PEACE',		'REQUIREMENTSET_TEST_ALL');
 
--- INSERT INTO RequirementSetRequirements
--- 		(RequirementSetId,					RequirementId)
--- VALUES	('HOSCH_FDR_PLAYER_AT_PEACE',		'HOSCH_FDR_REQUIRES_PLAYER_IS_AT_PEACE');
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,										RequirementId)
+VALUES	('HOSCH_FDR_PLAYER_AT_PEACE_AND_UNIT_IS_BUILDER',		'REQUIREMENT_UNIT_IS_BUILDER'),
+		('HOSCH_FDR_PLAYER_AT_PEACE_AND_UNIT_IS_BUILDER',		'REQUIREMENT_PLAYER_IS_AT_PEACE');
 
--- -- note: 'MODIFIER_BUILDING_YIELD_CHANGE' appears to be what I'll use for the commercial-hub production bonus
--- INSERT INTO Modifiers
--- 		(ModifierId,								ModifierType,										SubjectRequirementSetId)
--- VALUES	('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION',	'HOSCH_FDR_PLAYER_AT_PEACE'),
--- 		('TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE',	'MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES',		'HOSCH_FDR_PLAYER_AT_PEACE');
+-- note: 'MODIFIER_BUILDING_YIELD_CHANGE' appears to be what I'll use for the commercial-hub production bonus
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,												SubjectRequirementSetId)
+VALUES	('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION',				'HOSCH_FDR_PLAYER_AT_PEACE_AND_UNIT_IS_BUILDER'),
+		('TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE',	'MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES',		'HOSCH_FDR_PLAYER_AT_PEACE_AND_UNIT_IS_BUILDER');
 
--- INSERT INTO ModifierArguments
--- 		(ModifierId,								Name,			Value)
--- VALUES	('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'UnitType',		'UNIT_BUILDER'),
--- 		('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'Amount',		25),
--- 		('TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE',	'Amount',		1);
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value)
+VALUES	('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'UnitType',		'UNIT_BUILDER'),
+		('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'Amount',		25),
+		('TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE',	'Amount',		1);
 
--- INSERT INTO TraitModifiers
--- 		(TraitType,							ModifierId)
--- VALUES	('ABILITY_HOSCH_FDR_BUILDERS',		'TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION'),
--- 		('ABILITY_HOSCH_FDR_BUILDERS',		'TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE');
+INSERT INTO TraitModifiers
+		(TraitType,							ModifierId)
+VALUES	('ABILITY_HOSCH_FDR_BUILDERS',		'TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION'),
+		('ABILITY_HOSCH_FDR_BUILDERS',		'TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE');

@@ -9,12 +9,7 @@
 		
 		<!--DOM-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_HOSCH_FDR" Language="en_US">
-			<Text>
-				After 10 turns of war, cities with a harbor receive 100% bonus [Icon_Production] production towards naval units, and cities with an aerodrome receive 100% bonus [Icon_Production] production towards planes.
-				Commercial Hubs provide [Icon_Production] production equal to their bonus modifier.
-				While at peace, +1 charge and 25% bonus production for builders.
-				HOWEVER, receives double war weariness. War weariness decays at half the usual rate.
-			</Text>
+			<Text>After 10 turns of war, cities with a harbor receive 100% bonus [Icon_Production] production towards naval units, and cities with an aerodrome receive 100% bonus [Icon_Production] production towards planes. Commercial Hubs provide [Icon_Production] production equal to their bonus modifier. While at peace, +1 charge and 25% bonus production for builders. HOWEVER, receives double war weariness. War weariness decays at half the usual rate.</Text>
 		</Row>
 		
 		<!--Civilopedia-->
