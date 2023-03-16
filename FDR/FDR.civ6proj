@@ -20,6 +20,10 @@
     <RootNamespace>FDR</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -52,112 +56,70 @@
     <Content Include="Core\Joshs_Template_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.dds">
+    <Content Include="Textures\ART_LEADER_FDR.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.tex">
+    <Content Include="Textures\ART_LEADER_FDR.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.dds">
+    <Content Include="Textures\FALLBACK_NEUTRAL_FDR.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.tex">
+    <Content Include="Textures\FALLBACK_NEUTRAL_FDR.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_256.dds">
+    <Content Include="Textures\ICON_FDR_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_256.tex">
+    <Content Include="Textures\ICON_FDR_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_32.dds">
+    <Content Include="Textures\ICON_FDR_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_32.tex">
+    <Content Include="Textures\ICON_FDR_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_45.dds">
+    <Content Include="Textures\ICON_FDR_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_45.tex">
+    <Content Include="Textures\ICON_FDR_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_50.dds">
+    <Content Include="Textures\ICON_FDR_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_50.tex">
+    <Content Include="Textures\ICON_FDR_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_55.dds">
+    <Content Include="Textures\ICON_FDR_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_55.tex">
+    <Content Include="Textures\ICON_FDR_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_64.dds">
+    <Content Include="Textures\ICON_FDR_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_64.tex">
+    <Content Include="Textures\ICON_FDR_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_80.dds">
+    <Content Include="Textures\ICON_FDR_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_CUSTOM_80.tex">
+    <Content Include="Textures\ICON_FDR_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_256.dds">
+    <Content Include="Textures\LEADER_FDR_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_256.tex">
+    <Content Include="Textures\LEADER_FDR_BACKGROUND.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_32.dds">
+    <Content Include="Textures\LEADER_FDR_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_55.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_55.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_CUSTOM_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.tex">
+    <Content Include="Textures\LEADER_FDR_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
@@ -169,7 +131,7 @@
     <Content Include="XLPs\LeaderFallbacks.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\Leader_LEADER_CUSTOM.xlp">
+    <Content Include="XLPs\Leader_FDR.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">

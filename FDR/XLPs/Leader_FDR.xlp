@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::XLP>
+<AssetObjects..XLP>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>253</build>
-		<revision>293</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
-	<m_PackageName text="LEADER_HOSCH_LEADER_CUSTOM"/>
+	<m_PackageName text="LEADER_HOSCH_FDR"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ART_LEADER_LEADER_CUSTOM"/>
-			<m_ObjectName text="ART_LEADER_LEADER_CUSTOM"/>
+			<m_EntryID text="ART_LEADER_FDR"/>
+			<m_ObjectName text="ART_LEADER_FDR"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
@@ -19,4 +19,5 @@
 		<Element>LINUX</Element>
 		<Element>MACOS</Element>
 	</m_AllowedPlatforms>
-</AssetObjects::XLP>
+</AssetObjects..XLP>
+

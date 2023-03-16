@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::ArtDefSet>
+<AssetObjects..ArtDefSet>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>253</build>
-		<revision>293</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_TemplateName text="LeaderFallback"/>
 	<m_RootCollections>
@@ -22,8 +22,8 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::BLPEntryValue">
-										<m_EntryName text="FALLBACK_NEUTRAL_LEADER_CUSTOM"/>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FALLBACK_NEUTRAL_FDR"/>
 										<m_XLPClass text="LeaderFallback"/>
 										<m_XLPPath text="LeaderFallbacks.xlp"/>
 										<m_BLPPackage text="LeaderFallbacks"/>
@@ -38,9 +38,10 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LEADER_JRA_LEADER_CUSTOM"/>
+				<m_Name text="LEADER_JRA_FDR"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
 	</m_RootCollections>
-</AssetObjects::ArtDefSet>
+</AssetObjects..ArtDefSet>
+
