@@ -193,5 +193,12 @@
 		<Row Tag="LOC_TRAIT_LEADER_HOSCH_LEADER_CCC_DESCRIPTION" Language="en_US">
 			<Text>+1 charge and 25% bonus production for builders while at peace.</Text>
 		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_HOSCH_LEADER_AIRPOWER_NAME" Language="en_US">
+			<Text>Air Superiority</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HOSCH_LEADER_AIRPOWER_DESCRIPTION" Language="en_US">
+			<Text>25% bonus production for fighters and bombers after 10 turns of war.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
