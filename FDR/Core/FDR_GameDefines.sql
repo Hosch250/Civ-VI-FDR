@@ -48,8 +48,8 @@ VALUES	('LEADER_HOSCH_FDR',	'TRAIT_HOSCH_FDR_BUILDERS'),
 		('LEADER_HOSCH_FDR',	'TRAIT_HOSCH_FDR_AIRPOWER');
 
 INSERT INTO Requirements
-		(RequirementId,							RequirementType,					ProgressWeight)
-VALUES	('HOSCH_REQUIRES_AT_WAR_10_TURNS',		'REQUIREMENT_PLAYER_IS_AT_WAR',		1);
+		(RequirementId,							RequirementType,					Inverse,		ProgressWeight)
+VALUES	('HOSCH_REQUIRES_AT_WAR_10_TURNS',		'REQUIREMENT_PLAYER_IS_AT_PEACE',	1,				1);
 
 INSERT INTO RequirementArguments
 		(RequirementId,							Name,			Value)
@@ -77,9 +77,9 @@ VALUES	('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'UnitType',		'UNIT_BUILDER'),
 		('TRAIT_HOSCH_FDR_BUILDERS_PRODUCTION',		'Amount',		25),
 		('TRAIT_HOSCH_FDR_BUILDERS_EXTRA_CHARGE',	'Amount',		1),
 		('TRAIT_HOSCH_FDR_FIGHTER_PRODUCTION',		'UnitType',		'UNIT_FIGHTER'),
-		('TRAIT_HOSCH_FDR_FIGHTER_PRODUCTION',		'Amount',		25),
+		('TRAIT_HOSCH_FDR_FIGHTER_PRODUCTION',		'Amount',		100),
 		('TRAIT_HOSCH_FDR_BOMBER_PRODUCTION',		'UnitType',		'UNIT_BOMBER'),
-		('TRAIT_HOSCH_FDR_BOMBER_PRODUCTION',		'Amount',		25);
+		('TRAIT_HOSCH_FDR_BOMBER_PRODUCTION',		'Amount',		100);
 
 INSERT INTO TraitModifiers
 		(TraitType,							ModifierId)
